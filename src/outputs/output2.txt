@@ -1,0 +1,62 @@
+-------------  program : 1  -------------
+Key = class_CC  | Value = Class: (name: CC) (extends : Object)
+Key = mainClass_MainClass  | Value = MainClass: (name: MainClass)
+Key = class_CCC  | Value = Class: (name: CCC) (extends : CC)
+-----------------------------------------
+
+-------------  MainClass : 1  -------------
+Key = method_main  | Value = Method: (name: main) (returnType: void) (accessModifier: ACCESS_MODIFIER_PUBLIC) (parametersType: [array of [classType = String, isDefined = true] , index: 1] )
+-----------------------------------------
+
+-------------  mainMethod : 3  -------------
+Key = var_args  | Value = Parameter: (name: args) (type: array of [classType = String, isDefined = true]) (index: 1)
+-----------------------------------------
+
+-------------  CC : 9  -------------
+Key = var_mybooleanField  | Value = Field: (name: mybooleanField) (type: bool) (accessModifier: ACCESS_MODIFIER_PUBLIC)
+Key = var_thisisaboolean  | Value = Field: (name: thisisaboolean) (type: bool) (accessModifier: ACCESS_MODIFIER_PUBLIC)
+Key = method_method1  | Value = Method: (name: method1) (returnType: int) (accessModifier: ACCESS_MODIFIER_PUBLIC) (parametersType: [int , index: 1]  [int , index: 2]  [bool , index: 3] )
+Key = method_desugarme  | Value = Method: (name: desugarme) (returnType: int) (accessModifier: ACCESS_MODIFIER_PUBLIC) 
+-----------------------------------------
+
+-------------  method1 : 16  -------------
+Key = var_bb  | Value = LocalVar: (name: bb) (type: bool)
+Key = var_arr  | Value = LocalVar: (name: arr) (type: array of int)
+Key = var_rv  | Value = LocalVar: (name: rv) (type: int)
+Key = var_customvar  | Value = LocalVar: (name: customvar) (type: [classType = CCC, isDefined = true])
+Key = var_b  | Value = Parameter: (name: b) (type: bool) (index: 3)
+Key = var_i1  | Value = Parameter: (name: i1) (type: int) (index: 1)
+Key = var_i2  | Value = Parameter: (name: i2) (type: int) (index: 2)
+Key = var_id  | Value = LocalVar: (name: id) (type: int)
+-----------------------------------------
+
+-------------  nested : 28  -------------
+-----------------------------------------
+
+-------------  nested : 33  -------------
+Key = var_compiler  | Value = LocalVar: (name: compiler) (type: int)
+-----------------------------------------
+
+-------------  if : 40  -------------
+-----------------------------------------
+
+-------------  else : 42  -------------
+-----------------------------------------
+
+-------------  nested : 45  -------------
+-----------------------------------------
+
+-------------  while : 50  -------------
+-----------------------------------------
+
+-------------  desugarme : 54  -------------
+Key = var_x  | Value = LocalVar: (name: x) (type: int)
+Key = var_y  | Value = LocalVar: (name: y) (type: int)
+Key = var_i  | Value = LocalVar: (name: i) (type: int)
+Key = var_z  | Value = LocalVar: (name: z) (type: int)
+Key = var_j  | Value = LocalVar: (name: j) (type: int)
+-----------------------------------------
+
+-------------  CCC : 66  -------------
+Key = var_CCCfield1  | Value = Field: (name: CCCfield1) (type: int) (accessModifier: ACCESS_MODIFIER_PUBLIC)
+-----------------------------------------

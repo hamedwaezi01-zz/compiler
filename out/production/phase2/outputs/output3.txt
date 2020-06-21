@@ -1,0 +1,84 @@
+-------------  program : 1  -------------
+Key = mainClass_QuickSort  | Value = MainClass: (name: QuickSort)
+Key = class_QS  | Value = Class: (name: QS) (extends : Object)
+-----------------------------------------
+
+-------------  QuickSort : 1  -------------
+Key = method_main  | Value = Method: (name: main) (returnType: void) (accessModifier: ACCESS_MODIFIER_PUBLIC) (parametersType: [array of [classType = String, isDefined = true] , index: 1] )
+-----------------------------------------
+
+-------------  mainMethod : 2  -------------
+Key = var_a  | Value = Parameter: (name: a) (type: array of [classType = String, isDefined = true]) (index: 1)
+-----------------------------------------
+
+-------------  QS : 11  -------------
+Key = method_Print  | Value = Method: (name: Print) (returnType: int) (accessModifier: ACCESS_MODIFIER_PUBLIC) 
+Key = method_Init  | Value = Method: (name: Init) (returnType: int) (accessModifier: ACCESS_MODIFIER_PUBLIC) (parametersType: [int , index: 1] )
+Key = var_number  | Value = Field: (name: number) (type: array of int) (accessModifier: ACCESS_MODIFIER_PUBLIC)
+Key = var_size  | Value = Field: (name: size) (type: int) (accessModifier: ACCESS_MODIFIER_PUBLIC)
+Key = method_Start  | Value = Method: (name: Start) (returnType: int) (accessModifier: ACCESS_MODIFIER_PUBLIC) (parametersType: [int , index: 1] )
+Key = method_Sort  | Value = Method: (name: Sort) (returnType: int) (accessModifier: ACCESS_MODIFIER_PUBLIC) (parametersType: [int , index: 1]  [int , index: 2] )
+-----------------------------------------
+
+-------------  Start : 18  -------------
+Key = var_aux01  | Value = LocalVar: (name: aux01) (type: int)
+Key = var_sz  | Value = Parameter: (name: sz) (type: int) (index: 1)
+-----------------------------------------
+
+-------------  Sort : 31  -------------
+Key = var_t  | Value = LocalVar: (name: t) (type: int)
+Key = var_cont02  | Value = LocalVar: (name: cont02) (type: bool)
+Key = var_v  | Value = LocalVar: (name: v) (type: int)
+Key = var_aux03  | Value = LocalVar: (name: aux03) (type: int)
+Key = var_left  | Value = Parameter: (name: left) (type: int) (index: 1)
+Key = var_right  | Value = Parameter: (name: right) (type: int) (index: 2)
+Key = var_nt  | Value = LocalVar: (name: nt) (type: int)
+Key = var_cont01  | Value = LocalVar: (name: cont01) (type: bool)
+Key = var_i  | Value = LocalVar: (name: i) (type: int)
+Key = var_j  | Value = LocalVar: (name: j) (type: int)
+-----------------------------------------
+
+-------------  nested : 41  -------------
+-----------------------------------------
+
+-------------  nested : 46  -------------
+-----------------------------------------
+
+-------------  nested : 48  -------------
+-----------------------------------------
+
+-------------  if : 51  -------------
+-----------------------------------------
+
+-------------  else : 52  -------------
+-----------------------------------------
+
+-------------  nested : 55  -------------
+-----------------------------------------
+
+-------------  if : 58  -------------
+-----------------------------------------
+
+-------------  else : 59  -------------
+-----------------------------------------
+
+-------------  if : 67  -------------
+-----------------------------------------
+
+-------------  else : 68  -------------
+-----------------------------------------
+
+-------------  else : 76  -------------
+-----------------------------------------
+
+-------------  Print : 82  -------------
+Key = var_j  | Value = LocalVar: (name: j) (type: int)
+-----------------------------------------
+
+-------------  nested : 85  -------------
+-----------------------------------------
+
+-------------  Init : 94  -------------
+Key = var_sz  | Value = Parameter: (name: sz) (type: int) (index: 1)
+-----------------------------------------
+

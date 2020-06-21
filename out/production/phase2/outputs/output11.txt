@@ -1,0 +1,94 @@
+-------------  program : 1  -------------
+Key = class_Base  | Value = Class: (name: Base) (extends : Rest | implements: Face, MyFace)
+Key = interface_Face  | Value = Interface: (name: Face)
+Key = interface_MyFace  | Value = Interface: (name: MyFace)
+Key = class_Rest  | Value = Class: (name: Rest) (extends : Object | implements: Nothing)
+Key = mainClass_Classes  | Value = MainClass: (name: Classes)
+Key = class_Hi  | Value = Class: (name: Hi) (extends : Object)
+Key = class_Derived  | Value = Class: (name: Derived) (extends : Base)
+-----------------------------------------
+
+-------------  Classes : 1  -------------
+Key = method_main  | Value = Method: (name: main) (returnType: void) (accessModifier: ACCESS_MODIFIER_PUBLIC) (parametersType: [array of [classType = String, isDefined = true] , index: 1] )
+-----------------------------------------
+
+-------------  mainMethod : 2  -------------
+Key = var_d  | Value = LocalVar: (name: d) (type: [classType = Derived, isDefined = true])
+Key = var_b  | Value = LocalVar: (name: b) (type: [classType = Base, isDefined = true])
+Key = var_x  | Value = LocalVar: (name: x) (type: int)
+Key = var_args  | Value = Parameter: (name: args) (type: array of [classType = String, isDefined = true]) (index: 1)
+-----------------------------------------
+
+-------------  Rest : 14  -------------
+-----------------------------------------
+
+-------------  Base : 18  -------------
+Key = var_d  | Value = Field: (name: d) (type: array of [classType = Rest, isDefined = true]) (accessModifier: ACCESS_MODIFIER_PRIVATE)
+Key = method_get  | Value = Method: (name: get) (returnType: int) (accessModifier: ACCESS_MODIFIER_PUBLIC)
+Key = method_set  | Value = Method: (name: set) (returnType: int) (accessModifier: ACCESS_MODIFIER_PRIVATE) (parametersType: [array of int , index: 1] )
+Key = var_data  | Value = Field: (name: data) (type: array of int) (accessModifier: ACCESS_MODIFIER_PUBLIC)
+Key = method_test  | Value = Method: (name: test) (returnType: int) (accessModifier: ACCESS_MODIFIER_PRIVATE)
+-----------------------------------------
+
+-------------  set : 21  -------------
+Key = var_x  | Value = Parameter: (name: x) (type: array of int) (index: 1)
+-----------------------------------------
+
+-------------  get : 25  -------------
+-----------------------------------------
+
+-------------  test : 28  -------------
+Key = var_b  | Value = LocalVar: (name: b) (type: int)
+-----------------------------------------
+
+-------------  while : 31  -------------
+Key = var_x  | Value = LocalVar: (name: x) (type: int)
+-----------------------------------------
+
+-------------  nested : 34  -------------
+Key = var_t  | Value = LocalVar: (name: t) (type: int)
+-----------------------------------------
+
+-------------  nested : 39  -------------
+Key = var_n  | Value = LocalVar: (name: n) (type: bool)
+-----------------------------------------
+
+-------------  nested : 41  -------------
+-----------------------------------------
+
+-------------  Derived : 51  -------------
+Key = method_set  | Value = Method: (name: set) (returnType: int) (accessModifier: ACCESS_MODIFIER_PUBLIC) (parametersType: [int , index: 1]  [[classType = C, isDefined = false] , index: 2] )
+-----------------------------------------
+
+-------------  set : 53  -------------
+Key = var_d  | Value = Parameter: (name: d) (type: [classType = C, isDefined = false]) (index: 2)
+Key = var_x  | Value = Parameter: (name: x) (type: int) (index: 1)
+-----------------------------------------
+
+-------------  nested : 55  -------------
+Key = var_t  | Value = LocalVar: (name: t) (type: array of [classType = Base, isDefined = true])
+-----------------------------------------
+
+-------------  if : 60  -------------
+Key = var_a  | Value = LocalVar: (name: a) (type: int)
+-----------------------------------------
+
+-------------  Hi : 65  -------------
+Key = method_sayHi  | Value = Method: (name: sayHi) (returnType: void) (accessModifier: ACCESS_MODIFIER_PRIVATE) (parametersType: [int , index: 1]  [bool , index: 2]  [[classType = Hi, isDefined = true] , index: 3]  [int , index: 4] )
+-----------------------------------------
+
+-------------  sayHi : 66  -------------
+Key = var_four  | Value = Parameter: (name: four) (type: int) (index: 4)
+Key = var_three  | Value = Parameter: (name: three) (type: [classType = Hi, isDefined = true]) (index: 3)
+Key = var_one  | Value = Parameter: (name: one) (type: int) (index: 1)
+Key = var_two  | Value = Parameter: (name: two) (type: bool) (index: 2)
+-----------------------------------------
+
+-------------  Face : 70  -------------
+Key = var_a  | Value = Field: (name: a) (type: array of int) (accessModifier: ACCESS_MODIFIER_PUBLIC)
+Key = method_getFace  | Value = Method: (name: getFace) (returnType: int) (accessModifier: ACCESS_MODIFIER_PUBLIC) (parametersType: [int , index: 1] )
+-----------------------------------------
+
+-------------  MyFace : 75  -------------
+Key = var_myFace  | Value = Field: (name: myFace) (type: [classType = String, isDefined = true]) (accessModifier: ACCESS_MODIFIER_PUBLIC)
+-----------------------------------------

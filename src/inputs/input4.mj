@@ -1,0 +1,46 @@
+class MyProgram{
+    public static void main(String[] args){
+
+    }
+}
+class Something extends WTF{
+    int abc;
+    boolean b;
+    String name;
+    Someone[] someoneArr;
+
+    private void printMe(String text){
+        System.out.println(text + this.name );
+    }
+
+}
+
+class Someone {
+    public void doNothing(A a, B b, C c, D[] d){
+           if(true){
+                System.out.println("ok :)");
+           }else
+                System.out.println("oh No :(");
+    }
+
+    private Someone getMeIfUCan(){
+        while(1)
+            int t;
+        {
+            {
+                int you;
+            }
+        }
+        return this;
+    }
+
+}
+
+class WTF implements HowAreYou{
+
+
+}
+
+interface HowAreYou{
+     String sayHowAreYou();
+}

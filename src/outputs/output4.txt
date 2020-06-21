@@ -1,0 +1,67 @@
+-------------  program : 1  -------------
+Key = interface_HowAreYou  | Value = Interface: (name: HowAreYou)
+Key = class_Something  | Value = Class: (name: Something) (extends : WTF)
+Key = class_WTF  | Value = Class: (name: WTF) (extends : Object | implements: HowAreYou)
+Key = class_Someone  | Value = Class: (name: Someone) (extends : Object)
+Key = mainClass_MyProgram  | Value = MainClass: (name: MyProgram)
+-----------------------------------------
+
+-------------  MyProgram : 1  -------------
+Key = method_main  | Value = Method: (name: main) (returnType: void) (accessModifier: ACCESS_MODIFIER_PUBLIC) (parametersType: [array of [classType = String, isDefined = true] , index: 1] )
+-----------------------------------------
+
+-------------  mainMethod : 2  -------------
+Key = var_args  | Value = Parameter: (name: args) (type: array of [classType = String, isDefined = true]) (index: 1)
+-----------------------------------------
+
+-------------  Something : 6  -------------
+Key = var_abc  | Value = Field: (name: abc) (type: int) (accessModifier: ACCESS_MODIFIER_PUBLIC)
+Key = var_b  | Value = Field: (name: b) (type: bool) (accessModifier: ACCESS_MODIFIER_PUBLIC)
+Key = var_someoneArr  | Value = Field: (name: someoneArr) (type: array of [classType = Someone, isDefined = true]) (accessModifier: ACCESS_MODIFIER_PUBLIC)
+Key = var_name  | Value = Field: (name: name) (type: [classType = String, isDefined = true]) (accessModifier: ACCESS_MODIFIER_PUBLIC)
+Key = method_printMe  | Value = Method: (name: printMe) (returnType: void) (accessModifier: ACCESS_MODIFIER_PRIVATE) (parametersType: [[classType = String, isDefined = true] , index: 1] )
+-----------------------------------------
+
+-------------  printMe : 12  -------------
+Key = var_text  | Value = Parameter: (name: text) (type: [classType = String, isDefined = true]) (index: 1)
+-----------------------------------------
+
+-------------  Someone : 18  -------------
+Key = method_doNothing  | Value = Method: (name: doNothing) (returnType: void) (accessModifier: ACCESS_MODIFIER_PUBLIC) (parametersType: [[classType = A, isDefined = false] , index: 1]  [[classType = B, isDefined = false] , index: 2]  [[classType = C, isDefined = false] , index: 3]  [array of [classType = D, isDefined = false] , index: 4] )
+Key = method_getMeIfUCan  | Value = Method: (name: getMeIfUCan) (returnType: Someone) (accessModifier: ACCESS_MODIFIER_PRIVATE) 
+-----------------------------------------
+
+-------------  doNothing : 19  -------------
+Key = var_d  | Value = Parameter: (name: d) (type: array of [classType = D, isDefined = false]) (index: 4)
+Key = var_a  | Value = Parameter: (name: a) (type: [classType = A, isDefined = false]) (index: 1)
+Key = var_b  | Value = Parameter: (name: b) (type: [classType = B, isDefined = false]) (index: 2)
+Key = var_c  | Value = Parameter: (name: c) (type: [classType = C, isDefined = false]) (index: 3)
+-----------------------------------------
+
+-------------  nested : 20  -------------
+-----------------------------------------
+
+-------------  else : 23  -------------
+-----------------------------------------
+
+-------------  getMeIfUCan : 26  -------------
+-----------------------------------------
+
+-------------  while : 28  -------------
+Key = var_t  | Value = LocalVar: (name: t) (type: int)
+-----------------------------------------
+
+-------------  nested : 29  -------------
+-----------------------------------------
+
+-------------  nested : 30  -------------
+Key = var_you  | Value = LocalVar: (name: you) (type: int)
+-----------------------------------------
+
+-------------  WTF : 39  -------------
+-----------------------------------------
+
+-------------  HowAreYou : 44  -------------
+Key = method_sayHowAreYou  | Value = Method: (name: sayHowAreYou) (returnType: String) (accessModifier: ACCESS_MODIFIER_PUBLIC)
+-----------------------------------------
+
